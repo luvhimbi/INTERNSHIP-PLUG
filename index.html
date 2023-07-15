@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+ 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-plug mr-2"></i><strong>TUT INTERNSHIP PLUG</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-home mr-1"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="fas fa-info-circle mr-1"></i>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#job-listings"><i class="fas fa-briefcase mr-1"></i>Job Listings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="fas fa-envelope mr-1"></i>Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#application-tracking" data-toggle="modal" data-target="#applicationModal"><i class="fas fa-search mr-1"></i>Application Tracking</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+
+  <div class="hero-section">
+    <div class="container">
+      <h1 class="hero-heading">Welcome to  <i class="fas fa-plug mr-2"></i>Tut Internship Plug</h1>
+      <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signupModal">Sign Up to Apply</a>
+    </div>
+  </div>
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="about-heading">About</h2>
+      <p class="about-description">Tut Internship Plug is a platform dedicated to assisting students in their pursuit of Work Integrated Learning (WIL) opportunities. The idea for this website was conceived by the faculty of the ICT department at Tshwane University of Technology.</p>
+      <p class="about-description">Recognizing the challenges faced by students when searching for WIL jobs, the faculty sought to create a centralized platform that simplifies the process and enhances accessibility. Tut Internship Plug serves as a one-stop hub, connecting students with a wide range of internship opportunities and enabling them to apply directly through the website.</p>
+      <p class="about-description">Our mission is to bridge the gap between students and industry partners, facilitating a seamless transition into the professional world. By providing a user-friendly interface and a comprehensive listing of job opportunities, we aim to empower students to explore various industries, gain valuable experience, and kick-start their careers.</p>
+      <p class="about-description">We understand the importance of practical training and its impact on students' academic and professional growth. With Tut Internship Plug, students can browse through diverse internship listings, filter them based on their preferences, and apply with just a few clicks. Our platform also offers resources and guidance to help students succeed in their internship applications and make the most of their work-integrated learning experiences.</p>
+    </div>
+  </section>
+  <section id="job-listings" class="job-listing-section">
+    <div class="container">
+      <h2>Job Listings</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title"><img src="umuzi-logo-black.png" alt=""> <br> Development Intern</h3>
+            <p class="job-card-description">
+                
+  <p>We are seeking a skilled and motivated Java Developer to join our dynamic development team. As a Java Developer, you will be responsible for designing, implementing, and maintaining Java-based applications and systems. You will work collaboratively with cross-functional teams to deliver high-quality software solutions.</p>
+
+  <h3>Responsibilities:</h3>
+  <ul>
+    <li>Design and develop scalable, robust, and efficient Java applications.</li>
+    <li>Collaborate with team members to gather and analyze requirements, and translate them into technical specifications.</li>
+    <li>Write well-designed, testable, and efficient code following best practices and industry standards.</li>
+    <li>Perform code reviews to ensure code quality and adherence to coding standards.</li>
+    <li>Troubleshoot and debug issues, identify bottlenecks, and propose solutions.</li>
+    <li>Participate in software testing and quality assurance activities.</li>
+    <li>Keep up-to-date with the latest trends and advancements in Java development.</li>
+    <li>Contribute to the continuous improvement of development processes and practices.</li>
+    <li>Collaborate effectively with cross-functional teams, including designers, product managers, and other developers.</li>
+  </ul>
+
+  <h3>Requirements:</h3>
+  <ul>
+    <li>Bachelor's degree in Computer Science, Engineering, or a related field.</li>
+    <li>Proven experience as a Java Developer, with a strong understanding of object-oriented programming principles.</li>
+    <li>Proficiency in Java programming language and related frameworks (e.g., Spring, Hibernate).</li>
+    <li>Experience with database systems and SQL.</li>
+    <li>Good understanding of software development lifecycle (SDLC) and Agile methodologies.</li>
+    <li>Strong problem-solving and analytical skills.</li>
+    <li>Excellent communication and teamwork abilities.</li>
+    <li>Attention to detail and a focus on delivering high-quality software.</li>
+    <li>Ability to learn new technologies quickly and adapt to changing project requirements.</li>
+  </ul>
+
+  <h3>Preferred Skills:</h3>
+  <ul>
+    <li>Experience with web development technologies (e.g., HTML, CSS, JavaScript).</li>
+    <li>Knowledge of front-end frameworks (e.g., React, Angular).</li>
+    <li>Experience with version control systems (e.g., Git).</li>
+    <li>Familiarity with DevOps practices and tools.</li>
+  </ul>
+
+  <p>We offer a competitive salary, a stimulating work environment, and opportunities for professional growth. If you are a passionate Java Developer with a strong desire to contribute to the development of innovative software solutions, we would love to hear from you.</p>
+
+  <p>
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title"><img src="Alx-design-china-name.png" alt=""><br>Software Engineering Intern</h3>
+            <p class="job-card-description">
+                <p>We are offering an exciting opportunity for individuals interested in software engineering to join our team as a Software Engineering Intern. This internship is designed for those who are passionate about technology and eager to learn the foundations of software development in a professional environment.</p>
+
+  <h3>Responsibilities:</h3>
+  <ul>
+    <li>Assist in the development, testing, and debugging of software applications.</li>
+    <li>Collaborate with the engineering team to design and implement software solutions.</li>
+    <li>Participate in code reviews and contribute to the improvement of software quality.</li>
+    <li>Learn and apply software engineering best practices and development methodologies.</li>
+    <li>Support the documentation of software requirements, designs, and specifications.</li>
+    <li>Contribute to the identification and resolution of software defects and issues.</li>
+    <li>Assist in the maintenance and enhancement of existing software systems.</li>
+  </ul>
+
+  <h3>Requirements:</h3>
+  <ul>
+    <li>No prior experience or knowledge of software engineering is required.</li>
+    <li>Strong passion for technology and a desire to learn software development concepts.</li>
+    <li>Basic understanding of programming fundamentals and logic.</li>
+    <li>Excellent problem-solving and analytical skills.</li>
+    <li>Ability to work effectively in a team environment.</li>
+    <li>Strong communication and interpersonal skills.</li>
+  </ul>
+
+  <h3>Benefits:</h3>
+  <ul>
+    <li>Opportunity to gain hands-on experience in software development projects.</li>
+    <li>Mentorship and guidance from experienced software engineers.</li>
+    <li>Exposure to various programming languages, tools, and technologies.</li>
+    <li>Collaborative work environment that fosters learning and growth.</li>
+    <li>Stipend available for the duration of the internship.</li>
+    <li>Potential for future employment or further career advancement based on performance.</li>
+  </ul>
+
+  <p>If you have a strong passion for technology and a desire to learn software engineering, we encourage you to apply for this Software Engineering Internship. This is an excellent opportunity to gain practical experience, work on real-world projects, and kick-start your career in software development. Please submit your resume and a brief cover letter describing your interest in the internship and your motivation to pursue a career in software engineering.</p>
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+        <!-- Add more job cards here -->
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title"><img src="download (3).png" alt=""><br>Full stack  javadeveloper learnership</h3>
+            <p class="job-card-description">
+                
+  <p>We are offering an exciting opportunity for individuals who are passionate about web development and eager to kick-start their careers as Full Stack Developers. This learnership program is designed for candidates with no prior experience in the field, providing comprehensive training and hands-on learning opportunities.</p>
+
+  <p>As a Full Stack Developer Learner, you will be immersed in a dynamic and collaborative environment, working alongside experienced professionals who will guide you through the learning process. You will gain practical knowledge and skills in both front-end and back-end development, acquiring a well-rounded understanding of web technologies.</p>
+
+  <h3>Responsibilities:</h3>
+  <ul>
+    <li>Collaborate with the development team to create and implement web applications and solutions.</li>
+    <li>Participate in the entire software development lifecycle, including requirement gathering, coding, testing, and deployment.</li>
+    <li>Assist in troubleshooting and debugging issues to ensure smooth functionality of web applications.</li>
+    <li>Contribute to continuous improvement efforts, suggesting innovative ideas and best practices.</li>
+    <li>Keep up-to-date with the latest web development trends and technologies.</li>
+  </ul>
+
+  <h3>Requirements:</h3>
+  <ul>
+    <li>No prior experience or formal qualifications are necessary.</li>
+    <li>Basic understanding of HTML, CSS, and JavaScript is preferred but not mandatory.</li>
+    <li>Strong passion for web development and willingness to learn.</li>
+    <li>Excellent problem-solving and analytical skills.</li>
+    <li>Good communication and teamwork abilities.</li>
+    <li>Self-motivated and able to work independently with guidance.</li>
+  </ul>
+
+  <h3>Benefits:</h3>
+  <ul>
+    <li>Stipend: A monthly stipend will be provided to learners during the duration of the program.</li>
+    <li>Learning Opportunities: Gain valuable hands-on experience and practical knowledge in Full Stack Development.</li>
+    <li>Mentorship: Work closely with experienced professionals who will guide you throughout the learnership.</li>
+    <li>Career Growth: Develop a solid foundation in web development, opening doors to various career opportunities in the tech industry.</li>
+  </ul>
+
+  <p>Note: This learnership program is specifically designed for individuals who are looking to enter the field of Full Stack Development without any prior experience. If you are passionate about coding, eager to learn, and ready to embark on an exciting journey in web development, we encourage you to apply.</p>
+
+  <p>Please include a cover letter and your updated CV when applying.</p>
+
+  <p>We look forward to welcoming enthusiastic individuals who are ready to embrace the world of Full Stack Development and grow their skills in a supportive and dynamic environment.</p>
+
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title"> <img src="umuzi-logo-black.png" alt=""><br/>java developer learnship</h3>
+            <p class="job-card-description">
+                <p>We are seeking a skilled and motivated Java Developer to join our dynamic development team. As a Java Developer, you will be responsible for designing, implementing, and maintaining Java-based applications and systems. You will work collaboratively with cross-functional teams to deliver high-quality software solutions.</p>
+
+                <h3>Responsibilities:</h3>
+                <ul>
+                  <li>Design and develop scalable, robust, and efficient Java applications.</li>
+                  <li>Collaborate with team members to gather and analyze requirements, and translate them into technical specifications.</li>
+                  <li>Write well-designed, testable, and efficient code following best practices and industry standards.</li>
+                  <li>Perform code reviews to ensure code quality and adherence to coding standards.</li>
+                  <li>Troubleshoot and debug issues, identify bottlenecks, and propose solutions.</li>
+                  <li>Participate in software testing and quality assurance activities.</li>
+                  <li>Keep up-to-date with the latest trends and advancements in Java development.</li>
+                  <li>Contribute to the continuous improvement of development processes and practices.</li>
+                  <li>Collaborate effectively with cross-functional teams, including designers, product managers, and other developers.</li>
+                </ul>
+              
+                <h3>Requirements:</h3>
+                <ul>
+                  <li>Bachelor's degree in Computer Science, Engineering, or a related field.</li>
+                  <li>Proven experience as a Java Developer, with a strong understanding of object-oriented programming principles.</li>
+                  <li>Proficiency in Java programming language and related frameworks (e.g., Spring, Hibernate).</li>
+                  <li>Experience with database systems and SQL.</li>
+                  <li>Good understanding of software development lifecycle (SDLC) and Agile methodologies.</li>
+                  <li>Strong problem-solving and analytical skills.</li>
+                  <li>Excellent communication and teamwork abilities.</li>
+                  <li>Attention to detail and a focus on delivering high-quality software.</li>
+                  <li>Ability to learn new technologies quickly and adapt to changing project requirements.</li>
+                </ul>
+              
+                <h3>Preferred Skills:</h3>
+                <ul>
+                  <li>Experience with web development technologies (e.g., HTML, CSS, JavaScript).</li>
+                  <li>Knowledge of front-end frameworks (e.g., React, Angular).</li>
+                  <li>Experience with version control systems (e.g., Git).</li>
+                  <li>Familiarity with DevOps practices and tools.</li>
+                </ul>
+              
+                <p>We offer a competitive salary, a stimulating work environment, and opportunities for professional growth. If you are a passionate Java Developer with a strong desire to contribute to the development of innovative software solutions, we would love to hear from you.</p>
+              
+                <p>Please submit your resume and a cover letter highlighting your relevant experience and skills.</p>
+              
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title"><img src="g.jpg" alt="" width="200px"><br/>Scrum master learnership</h3>
+            <p class="job-card-description">
+                <p>We are offering an exciting learnership opportunity for individuals interested in becoming a Scrum Master. This learnership program is designed for those who are passionate about agile methodologies and eager to learn the skills required to facilitate effective project management using Scrum principles.</p>
+
+  <h3>Responsibilities:</h3>
+  <ul>
+    <li>Participate in agile development projects and support the implementation of Scrum framework.</li>
+    <li>Assist the Scrum team in planning, organizing, and prioritizing work items.</li>
+    <li>Facilitate Scrum ceremonies such as daily stand-ups, sprint planning, sprint reviews, and retrospectives.</li>
+    <li>Collaborate with product owners, developers, and other stakeholders to ensure smooth workflow and timely delivery.</li>
+    <li>Help remove any obstacles or impediments that may hinder the progress of the Scrum team.</li>
+    <li>Support the team in adopting agile best practices and continuous improvement.</li>
+    <li>Maintain and update project documentation, including user stories, backlog, and sprint progress.</li>
+    <li>Monitor project metrics and provide regular reports to stakeholders.</li>
+  </ul>
+
+  <h3>Requirements:</h3>
+  <ul>
+    <li>No prior experience as a Scrum Master is required.</li>
+    <li>Strong interest in agile methodologies and willingness to learn Scrum principles and practices.</li>
+    <li>Excellent communication and interpersonal skills.</li>
+    <li>Ability to work collaboratively in a team environment.</li>
+    <li>Good problem-solving and decision-making abilities.</li>
+    <li>Strong organizational and time management skills.</li>
+    <li>Detail-oriented and able to prioritize tasks effectively.</li>
+    <li>Passion for continuous learning and self-development.</li>
+  </ul>
+
+  <h3>Benefits:</h3>
+  <ul>
+    <li>Structured learnership program to learn and apply Scrum principles in real-world projects.</li>
+    <li>Mentorship and guidance from experienced Scrum Masters.</li>
+    <li>Opportunity to work with cross-functional teams and gain exposure to various industries.</li>
+    <li>Develop essential project management and leadership skills.</li>
+    <li>Stipend available for the duration of the learnership.</li>
+    <li>Potential for future employment or further career advancement based on performance.</li>
+  </ul>
+
+  <p>If you have a strong interest in agile methodologies and aspire to become a Scrum Master, we encourage you to apply for this Scrum Master Learnership. This is an excellent opportunity to gain practical experience, receive mentorship, and develop the skills needed to succeed in an agile project management role. Please submit your resume and a brief cover letter explaining your motivation to participate in the learnership program and your passion for agile methodologies.</p>
+
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title">
+                <img src="download (2).png" alt="" ><br/>Business analyst learnership</h3>
+            <p class="job-card-description">
+                
+  <p>We are offering an exciting learnership opportunity for individuals interested in becoming a Business Analyst. This learnership program is designed for those who are passionate about problem-solving, critical thinking, and analyzing business requirements to drive organizational success.</p>
+
+  <h3>Responsibilities:</h3>
+  <ul>
+    <li>Assist in gathering and documenting business requirements from stakeholders.</li>
+    <li>Conduct thorough analysis of business processes, systems, and data.</li>
+    <li>Identify areas for improvement and propose innovative solutions.</li>
+    <li>Collaborate with cross-functional teams to define project objectives and scope.</li>
+    <li>Translate business requirements into functional specifications and user stories.</li>
+    <li>Support the development and testing of software applications and systems.</li>
+    <li>Assist in conducting user acceptance testing and gathering feedback.</li>
+    <li>Participate in data analysis and visualization to extract meaningful insights.</li>
+    <li>Assist in creating documentation, including process flows and system diagrams.</li>
+    <li>Provide regular progress reports and updates to project stakeholders.</li>
+  </ul>
+
+  <h3>Requirements:</h3>
+  <ul>
+    <li>No prior experience as a Business Analyst is required.</li>
+    <li>Strong analytical and problem-solving skills.</li>
+    <li>Excellent written and verbal communication abilities.</li>
+    <li>Ability to work collaboratively in a team environment.</li>
+    <li>Detail-oriented with a focus on accuracy and quality.</li>
+    <li>Good understanding of business processes and systems.</li>
+    <li>Proficiency in using productivity tools, such as Microsoft Office suite.</li>
+    <li>Ability to adapt to changing priorities and manage multiple tasks.</li>
+    <li>Strong organizational and time management skills.</li>
+    <li>Passion for continuous learning and professional development.</li>
+  </ul>
+
+  <h3>Benefits:</h3>
+  <ul>
+    <li>Structured learnership program to learn and apply business analysis skills in real-world projects.</li>
+    <li>Mentorship and guidance from experienced Business Analysts.</li>
+    <li>Opportunity to work with cross-functional teams and gain exposure to various industries.</li>
+    <li>Develop essential business analysis and project management skills.</li>
+    <li>Stipend available for the duration of the learnership.</li>
+    <li>Potential for future employment or further career advancement based on performance.</li>
+  </ul>
+
+  <p>If you have a passion for problem-solving, critical thinking, and driving business success through analysis, we encourage you to apply for this Business Analyst Learnership. This is an excellent opportunity to gain practical experience, receive mentorship, and develop the skills needed to succeed in a business analysis role. Please submit your resume and a brief cover letter explaining your interest in participating in the learnership program and your motivation to pursue a career in business analysis.</p>
+ 
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title">
+                <img src="download (1).png" alt="AWS Logo"/><br/>AWS learnership</h3>
+            <p class="job-card-description">
+                <p>We are offering an exciting learnership opportunity for individuals interested in becoming an AWS (Amazon Web Services) professional. This learnership program is designed for those who are passionate about cloud computing, infrastructure management, and leveraging AWS services to drive digital transformation.</p>
+
+  <h3>Responsibilities:</h3>
+  <ul>
+    <li>Learn and understand the core concepts of AWS, including computing, storage, networking, and security.</li>
+    <li>Assist in the design, implementation, and management of AWS infrastructure for various projects.</li>
+    <li>Work closely with AWS architects and engineers to deploy and configure cloud resources.</li>
+    <li>Gain hands-on experience in provisioning and managing EC2 instances, S3 buckets, RDS databases, and other AWS services.</li>
+    <li>Collaborate with cross-functional teams to identify opportunities for optimizing and improving AWS deployments.</li>
+    <li>Support the development and deployment of applications and services on the AWS platform.</li>
+    <li>Monitor and troubleshoot AWS infrastructure to ensure performance, availability, and security.</li>
+    <li>Assist in implementing security best practices and compliance requirements within the AWS environment.</li>
+    <li>Participate in ongoing training and professional development to stay up-to-date with AWS technologies and best practices.</li>
+    <li>Contribute to documentation and knowledge sharing related to AWS infrastructure and solutions.</li>
+  </ul>
+
+  <h3>Requirements:</h3>
+  <ul>
+    <li>No prior experience with AWS is required.</li>
+    <li>Strong interest in cloud computing and AWS services.</li>
+    <li>Basic understanding of networking, operating systems, and IT infrastructure.</li>
+    <li>Excellent problem-solving and troubleshooting skills.</li>
+    <li>Good communication and teamwork abilities.</li>
+    <li>Ability to learn quickly and adapt to new technologies.</li>
+    <li>Passion for continuous learning and professional development.</li>
+    <li>Relevant certifications (e.g., AWS Certified Cloud Practitioner) are a plus but not required.</li>
+  </ul>
+
+  <h3>Benefits:</h3>
+  <ul>
+    <li>Structured learnership program to gain hands-on experience with AWS technologies and solutions.</li>
+    <li>Mentorship and guidance from experienced AWS professionals.</li>
+    <li>Opportunity to work on real-world projects and contribute to cloud transformation initiatives.</li>
+    <li>Access to AWS training resources and certifications.</li>
+    <li>Stipend available for the duration of the learnership.</li>
+    <li>Potential for future employment or further career advancement based on performance.</li>
+  </ul>
+
+  <p>If you have a passion for cloud computing and are eager to start a career in AWS, we encourage you to apply for this AWS Learnership. This is an excellent opportunity to gain practical experience, receive mentorship from industry experts, and develop the skills needed to succeed in an AWS-focused role. Please submit your resume and a brief cover letter explaining your interest in participating in the learnership program and your motivation to pursue a career in AWS.</p>
+
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3 class="job-card-title">  <img src="download.png" alt="ICEP Logo"><br/>ICEP INTERNSHIP</h3>
+            <p class="job-card-description">
+  
+
+  <p>The Industry-Linked Computer Engineering Programme (ICEP) is offering an internship opportunity for computer science and informatics students. This internship program is a collaboration between Tshwane University of Technology (TUT) Soshanguve and Emalahleni campuses, and industry partners, providing students with real-world experience and exposure to industry practices.</p>
+
+  <h3>Responsibilities:</h3>
+  <ul>
+    <li>Collaborate with industry professionals on real-world projects.</li>
+    <li>Assist in the development and implementation of software solutions.</li>
+    <li>Conduct research and analysis to support project requirements.</li>
+    <li>Participate in team meetings and contribute to project discussions.</li>
+    <li>Work closely with mentors and supervisors to enhance technical skills.</li>
+    <li>Follow software development best practices and coding standards.</li>
+    <li>Perform testing and debugging to ensure software quality.</li>
+    <li>Document project progress, findings, and outcomes.</li>
+    <li>Present project outcomes and learnings to stakeholders.</li>
+  </ul>
+
+  <h3>Requirements:</h3>
+  <ul>
+    <li>Enrollment in a computer science or informatics program at TUT Soshanguve or Emalahleni.</li>
+    <li>Strong programming skills in languages such as Java, C++, or Python.</li>
+    <li>Understanding of software development principles and methodologies.</li>
+    <li>Knowledge of web development frameworks and technologies (e.g., HTML, CSS, JavaScript) is a plus.</li>
+    <li>Ability to work effectively in a team environment.</li>
+    <li>Excellent problem-solving and analytical skills.</li>
+    <li>Good communication and interpersonal skills.</li>
+    <li>Willingness to learn and adapt to new technologies.</li>
+  </ul>
+
+  <h3>Benefits:</h3>
+  <ul>
+    <li>Practical experience in applying computer science concepts to real-world projects.</li>
+    <li>Exposure to industry practices, technologies, and workflows.</li>
+    <li>Mentorship and guidance from industry professionals.</li>
+    <li>Opportunity to build a professional network within the industry.</li>
+    <li>Enhancement of technical and problem-solving skills.</li>
+    <li>Potential for future employment or further collaboration with industry partners.</li>
+    <li>Stipend available for the duration of the internship.</li>
+  </ul>
+
+  <p>If you are a computer science or informatics student at TUT Soshanguve or Emalahleni and are eager to gain industry experience, we encourage you to apply for the ICEP Internship. This internship program provides an excellent opportunity to apply your academic knowledge to real-world projects, develop valuable skills, and establish connections within the industry. Please submit your resume, academic transcripts, and a brief cover letter outlining your interest in the internship and your motivation to contribute to industry projects.</p>
+
+
+            </p>
+            <a href="#" class="job-card-button btn btn-primary" onclick="openApplicationForm()">Apply</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="contact-heading">Contact</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="comments">Comments</label>
+          <textarea id="comments" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit" class="btn btn-primary" data-toggle="modal" data-target="#popupModal">
+        </div>
+      </form>
+    </div>
+  </section>
+<!-- Sign Up Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content" style="background-color: black;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="surname">Surname</label>
+              <input type="text" class="form-control" id="surname" required>
+            </div>
+            <div class="form-group">
+              <label for="idNumber">ID Number</label>
+              <input type="text" class="form-control" id="idNumber"  oninput="calculateDateOfBirth()" required>
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="text" class="form-control" id="phoneNumber" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input type="text" class="form-control" id="address" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="dateOfBirth">Date of Birth</label>
+              <input type="text" class="form-control" id="dateOfBirth" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" required>
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <input type="password" class="form-control" id="confirmPassword" required>
+            </div>
+            <div class="form-group">
+              <label for="cv">CV (Curriculum Vitae)</label>
+              <input type="file" class="form-control-file" id="cv" required>
+            </div>
+            <div class="form-group">
+              <label for="coverLetter">Cover Letter</label>
+              <input type="file" class="form-control-file" id="coverLetter" required>
+            </div>
+            <div class="form-group">
+              <label for="transcript">Transcript</label>
+              <input type="file" class="form-control-file" id="transcript" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p>Already have an account? <a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content" style="background-color: black;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Log In</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+          <form>
+            <div class="form-group">
+              <label for="loginEmail">Email Address</label>
+              <input type="email" class="form-control" id="loginEmail" required>
+            </div>
+            <div class="form-group">
+              <label for="loginPassword">Password</label>
+              <input type="password" class="form-control" id="loginPassword" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Log In</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p>Don't have an account? <a href="#" data-toggle="modal" data-target="#signupModal" data-dismiss="modal">Sign up</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Bootstrap JS -->
+
+    <div class="popup-form" id="applicationForm" style="max-height: 400px; overflow-y: auto;">
+        <span class="close-icon" onclick="closeApplicationForm()"><i class="fas fa-times"></i></span>
+        <h2>Job Application</h2>
+        <form>
+          <label for="applyName">Name</label>
+          <input type="text" id="applyName" placeholder="Enter your name" required>
+          
+          <label for="applySurname">Surname</label>
+          <input type="text" id="applySurname" placeholder="Enter your surname" required>
+          
+          <label for="applyGender">Gender</label>
+          <input type="text" id="applyGender" placeholder="Enter your gender" required>
+          
+          <label for="applyEmail">Email Address</label>
+          <input type="email" id="applyEmail" placeholder="Enter your email address" required>
+          
+          <label for="applyPhone">Phone Number</label>
+          <input type="tel" id="applyPhone" placeholder="Enter your phone number" required>
+          
+          <label for="applyCV">CV</label>
+          <input type="file" id="applyCV" accept=".pdf,.doc,.docx" required>
+          
+          <label for="applyCoverLetter">Cover Letter</label>
+          <input type="file" id="applyCoverLetter" accept=".pdf,.doc,.docx" required>
+          
+          <label for="applyTranscript">Transcript</label>
+          <input type="file" id="applyTranscript" accept=".pdf,.doc,.docx" required>
+          
+          <input type="submit" value="Apply Manually">
+        </form>
+        <p>Or</p>
+        <button onclick="applyWithExistingInfo()">Use Existing Information</button>
+      </div>
+       <!-- Modal -->
+  <div class="modal fade" id="applicationModal" tabindex="-1" role="dialog" aria-labelledby="applicationModalLabel"
+  aria-hidden="true" class="bg-dark">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="applicationModalLabel">Application Tracking</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p> you havent submitted any application currently</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Dialog -->
+<div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <h3>Message Sent!</h3>
+          <p>We shall contact you as soon as possible.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

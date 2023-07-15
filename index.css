@@ -1,0 +1,219 @@
+body {
+    background-color: black;
+    cursor: url('') 16 16, auto;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .cursor-dot {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+  }
+  
+  
+  
+ 
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .navbar {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  .navbar-nav .nav-link {
+    border-bottom: 5px solid transparent;
+    transition: border-color 0.1s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    border-color: orange;
+  }
+  
+  .hero-section {
+      background: rgba( 180, 160, 160, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+background-image: url('ian-schneider-TamMbr4okv4-unsplash.jpg');
+background-attachment: fixed;
+color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-heading {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .about-section {
+
+      padding: 50px 0;
+    background: rgba(150, 88, 88, 0.35);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .about-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    margin-bottom: 20px;
+  }
+  .job-listing-section {
+      padding: 50px 0;
+    background: rgba(150, 88, 88, 0.35);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .job-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .job-card-title {
+      font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .job-card-description {
+    margin-bottom: 10px;
+  }
+  
+  .job-card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .job-card-button:hover {
+    background-color: #eaeaea;
+  }
+  .contact-section {
+    padding: 50px 0;
+    background: rgba(150, 88, 88, 0.35);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .contact-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  .form-group input,
+  .form-group textarea {
+    border-radius: 5px;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #eaeaea;
+  }
+#signupModal{
+  background: rgba(150, 88, 88, 0.35);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#loginModal{
+  background: rgba(150, 88, 88, 0.35);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );  
+}
+.popup-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  
+  .popup-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .popup-form input[type="text"],
+  .popup-form input[type="email"],
+  .popup-form input[type="tel"],
+  .popup-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .popup-form input[type="submit"] {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#applicationModal{
+  background: rgba(150, 88, 88, 0.35);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );  
+}
+.modal-content {
+    background-color: black;
+    color: white;
+  }
